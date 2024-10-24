@@ -24,9 +24,13 @@ The following tests are included in the project:
 - Retrieve comments for user
 - Request list of comments
 - Retrieve a comment
+- Fail to delete a user
+- Delete a comment
+- Delete a user
+- Modify user
 
 ## Usage
-The data for the test execution is stored in the data.feature file, which can be modified if needed.
+The data for the test execution is stored in the /data folder, which change randomly on each run.
 
 To run the tests, ensure you have Maven installed. Open a terminal in the project's root folder and run the following commands:
 
