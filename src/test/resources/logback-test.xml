@@ -5,9 +5,9 @@
         </encoder>
     </appender>
 
-    <logger name="org.thymeleaf" level="ERROR" /> <!-- Reduzca la salida de Thymeleaf -->
-    <logger name="org.springframework" level="ERROR" /> <!-- Reduzca la salida de Spring -->
-    <logger name="com.intuit.karate" level="WARN" /> <!-- Reduzca la salida de Karate -->
+    <logger name="org.thymeleaf" level="ERROR" /> <
+    <logger name="org.springframework" level="ERROR" /> 
+    <logger name="com.intuit.karate" level="WARN" />
     
     <root level="ERROR">
         <appender-ref ref="CONSOLE" />

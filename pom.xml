@@ -47,9 +47,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M5</version>
         <configuration>
-            <redirectTestOutputToFile>true</redirectTestOutputToFile> <!-- Redirige la salida a archivos -->
-            <printSummary>true</printSummary> <!-- Imprime solo un resumen -->
-            <useFile>false</useFile> <!-- No usar archivo, solo resumen en consola -->
+            <redirectTestOutputToFile>true</redirectTestOutputToFile> 
+            <printSummary>true</printSummary> 
+            <useFile>false</useFile> 
         </configuration>
       </plugin>
     </plugins>
