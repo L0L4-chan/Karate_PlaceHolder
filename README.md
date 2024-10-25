@@ -37,5 +37,8 @@ To run the tests, ensure you have Maven installed. Open a terminal in the projec
 - mvn install
 - mvn test
 
+For repeat running
+- mvn clean test
+
 
 You can access the reports in the karate-report folder.
