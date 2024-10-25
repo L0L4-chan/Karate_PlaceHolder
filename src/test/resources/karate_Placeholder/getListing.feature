@@ -11,3 +11,5 @@ Feature: Request list of comments
         Given method get
         Then status 200
         And response.lenght != null
+        And match responseHeaders['Content-Type'] == ["application/json; charset=utf-8"]
+            * checkResponseTime(response)

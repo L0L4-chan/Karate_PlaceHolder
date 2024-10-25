@@ -13,4 +13,7 @@ Feature: Create a new comment
         When method post
         Then status 201 
         And response.title == data.title
+        And match response contains { userId: '#notnull' , id: '#notnull' ,title: '#notnull', body: '#notnull' }
+        And match responseHeaders['Content-Type'] == ["application/json; charset=utf-8"]
+            * checkResponseTime(response)
             

@@ -13,3 +13,5 @@ Feature: Modify user
         When method patch
         Then status 200
         And response.email == data.email
+        And match responseHeaders['Content-Type'] == ["application/json; charset=utf-8"]
+            * checkResponseTime(response)

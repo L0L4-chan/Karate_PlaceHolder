@@ -10,5 +10,7 @@ Feature: Delete a user
 
         Given method delete
         Then status 200
-        * print response
+        And match responseHeaders['Content-Type'] == ["application/json; charset=utf-8"]
+            * checkResponseTime(response)
+            * print response
        

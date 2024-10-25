@@ -10,5 +10,6 @@ Feature: Fail to delete a user
 
         Given method delete
         Then status 404
-        * print response
+            * print response
+            * checkResponseTime(response)
        
